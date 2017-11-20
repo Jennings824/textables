@@ -13,7 +13,7 @@ export default StyleSheet.create({
     justifyContent: 'center',
     alignItems: 'center',
     margin: Metrics.baseMargin,
-    backgroundColor: Colors.fire,
+    backgroundColor: Colors.frost,
     borderRadius: Metrics.smallMargin
   },
   sectionHeader: {
@@ -26,13 +26,13 @@ export default StyleSheet.create({
   boldLabel: {
     fontWeight: 'bold',
     alignSelf: 'center',
-    color: Colors.snow,
+    color: Colors.text,
     textAlign: 'center',
     marginBottom: Metrics.smallMargin
   },
   label: {
     alignSelf: 'center',
-    color: Colors.snow,
+    color: Colors.text,
     textAlign: 'center'
   },
   listContent: {
